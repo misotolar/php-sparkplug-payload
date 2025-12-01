@@ -1,0 +1,26 @@
+{
+    "name": "misotolar/php-sparkplug-payload",
+    "description": "PHP Sparkplug Payload",
+    "keywords": [
+        "php",
+        "sparkplug",
+        "protobuf",
+        "payload"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michal Sotolar",
+            "email": "michal@sotolar.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.3",
+        "google/protobuf": "^4.31"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sparkplug\\Payload\\": "src/"
+        }
+    }
+}
