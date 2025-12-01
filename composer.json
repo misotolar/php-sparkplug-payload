@@ -18,6 +18,9 @@
         "php": ">=7.3",
         "google/protobuf": "^4.31"
     },
+    "suggest": {
+        "ext-protobuf": "Protocol Buffers native extension to provide hihger performance"
+    },
     "autoload": {
         "psr-4": {
             "Sparkplug\\Payload\\": "src/"
